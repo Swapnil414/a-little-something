@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#fff7ef">
+  <title>A little something 🌹</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+
+    <div class="rose-sprinkle" aria-hidden="true">
+      <span>🌹</span><span>🌹</span><span>🌷</span><span>🌹</span><span>🌷</span>
+    </div>
+
+    <section class="hero reveal">
+      <div class="tiny-note">made for one particular person</div>
+      <div class="hero-flower">🌹</div>
+      <h1>I made you<br><em>a little something.</em></h1>
+      <p class="hero-copy">Nothing too serious.<br>Just scroll. You'll see. ♡</p>
+      <button class="pill-button" id="startButton" type="button">okay, I'm curious →</button>
+      <div class="tiny-rose-row">🌹　🌷　🌹</div>
+    </section>
+
+    <section class="flowers-section reveal" id="flowers">
+      <div class="section-label">chapter one · flowers</div>
+      <h2>A tiny garden<br>for you.</h2>
+      <p class="soft-copy">I heard someone likes red roses<br>and red tulips. So...</p>
+
+      <div class="flower-stage">
+        <button class="big-flower" id="roseButton" type="button" aria-expanded="false">
+          <span class="flower-emoji">🌹</span>
+          <span class="tap-hint">tap me</span>
+        </button>
+        <button class="big-flower" id="tulipButton" type="button">
+          <span class="flower-emoji">🌷</span>
+          <span class="tap-hint">and me</span>
+        </button>
+      </div>
+
+      <div class="flower-message" id="roseMessage" aria-live="polite">
+        <span class="message-flower">🌹</span>
+        <p>Roses are pretty...</p>
+        <strong>but guess who's prettier?</strong>
+        <span class="tiny-heart">♡</span>
+      </div>
+
+      <div class="tulip-message" id="tulipMessage" aria-live="polite">
+        <p>Okay, okay. Tulips are pretty too.</p>
+        <small>I'm trying to be fair here.</small>
+      </div>
+
+      <p class="hand-note">p.s. you were supposed to tap the rose first.</p>
+      <div class="flower-border">🌹 · 🌷 · 🌹 · 🌷 · 🌹</div>
+    </section>
+
+    <section class="question-section reveal">
+      <div class="question-card">
+        <div class="question-number">01</div>
+        <h3>Okay, be honest.</h3>
+        <p>Have you ever smiled at your phone because of me?</p>
+        <div class="answer-grid">
+          <button class="answer-button" id="smileNo" type="button">no</button>
+          <button class="answer-button" id="smileMaybe" type="button">maybe 👀</button>
+        </div>
+        <p class="answer-result" id="smileResult" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section class="secret-section reveal">
+      <div class="secret-note">
+        <span class="secret-tape"></span>
+        <div class="section-label">classified information</div>
+        <h2>Do NOT<br>press this.</h2>
+        <p>Seriously. I'm warning you.</p>
+        <button class="danger-button" id="doNotPress" type="button">I won't press it</button>
+        <div class="secret-result" id="secretResult" aria-live="polite"></div>
+        <div class="secret-roses">🌹 🌹 🌹</div>
+      </div>
+    </section>
+
+    <section class="biceps-section" id="biceps">
+      <div class="section-label">bonus chapter · completely unrelated</div>
+      <h2>Okay.<br>Enough flowers.</h2>
+      <p class="biceps-intro">You kept pressing it, so this is technically your fault.</p>
+
+      <div class="polaroid">
+        <div class="photo-tape"></div>
+        <img src="images/biceps.jpg" alt="A photo" id="bicepsImage">
+        <p class="polaroid-caption">you were warned. 🌹</p>
+      </div>
+
+      <div class="rose-corners" aria-hidden="true">
+        <span>🌹</span><span>🌷</span><span>🌹</span>
+      </div>
+
+      <p class="biceps-note">I needed one excuse to flex.</p>
+    </section>
+
+    <section class="final-section reveal">
+      <div class="final-card">
+        <div class="section-label">one last thing</div>
+        <h2>If you liked this...</h2>
+        <p class="call-question">can I get a call today at <strong>10:30?</strong> 👀</p>
+
+        <div class="call-buttons" id="callButtons">
+          <button class="yes-button" id="yesButton" type="button">YES ♡</button>
+          <button class="no-button" id="noButton" type="button">NO</button>
+        </div>
+
+        <p class="call-result" id="callResult" aria-live="polite"></p>
+        <div class="final-roses">🌹　♡　🌹</div>
+      </div>
+    </section>
+
+    <section class="ending reveal">
+      <div class="ending-flower">🌹</div>
+      <h2>That's it.</h2>
+      <p>I could've made this way more dramatic,<br>but I'll behave.</p>
+      <p class="final-note">I just wanted to make you smile. ♡</p>
+      <div class="tiny-stars">✦ · ✧ · ✦</div>
+    </section>
+
+    <footer>made with questionable amounts of effort ♡</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
